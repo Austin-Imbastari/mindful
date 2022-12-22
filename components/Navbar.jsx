@@ -10,7 +10,7 @@ function Navbar() {
             <Nav>
                 <Header>
                     <Link className='link' href='/'>
-                        <Image src={logo} alt='logo' width={300} height={70} />
+                        <Image src={logo} alt='logo' width={250} height={65} />
                     </Link>
                 </Header>
                 <UL>
@@ -49,7 +49,7 @@ const Nav = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
 
     h1 {
         color: #000;
@@ -73,7 +73,7 @@ const UL = styled.ul`
     li {
         text-decoration: none;
         padding: 0px 30px;
-        font-size: 10px;
+        font-size: 9px;
     }
 `;
 
@@ -81,10 +81,11 @@ const ButtonContainer = styled.div`
     margin-right: 50px;
 
     .btn-nav {
-        border: 2px solid rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background: #d3fccb;
         padding: 1rem 2rem;
         border-radius: 10px;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 700;
     }
 

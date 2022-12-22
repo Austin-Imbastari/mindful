@@ -1,6 +1,8 @@
 import Head from "next/head";
 //import components
 import Navbar from "../components/Navbar";
+import Herosection from "../components/Herosection";
+import Features from "../components/Features";
 
 export default function Home() {
     return (
@@ -16,6 +18,8 @@ export default function Home() {
                 />
             </Head>
             <Navbar />
+            <Herosection />
+            <Features />
         </>
     );
 }

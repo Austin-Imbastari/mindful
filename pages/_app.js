@@ -9,6 +9,11 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+
+html,body {
+    scroll-behavior: smooth;
+    background: #FDFDFD;
+}
 `;
 
 export default function App({ Component, pageProps }) {
