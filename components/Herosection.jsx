@@ -16,7 +16,7 @@ function Herosection() {
                         </span>
                         <br /> with AI!
                     </h1>
-                    <p>Crush the Competition & Guarantee Your Income. Get the #1 Research Tool Today!</p>
+                    <p>Crush the Competition & Guarantee Your Income. Get the #1 Product Description Tool Today!</p>
                     <ButtonContainer>
                         <button className='btn-start'>Start Now</button>
                         <button>Explore our Plans</button>
